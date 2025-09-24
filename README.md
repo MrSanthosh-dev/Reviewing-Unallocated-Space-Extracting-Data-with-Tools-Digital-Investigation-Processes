@@ -42,7 +42,37 @@ flowchart TD
 
 
 ## OUTPUT:
-Unallocated Space Analysis and Extracted Data Report
+
+```
+lsblk
+```
+
+<img width="864" height="301" alt="image" src="https://github.com/user-attachments/assets/b51ca3e7-5126-4db3-b6ba-4e5cd00fe184" />
+
+```
+sudo dd if=/dev/sda of=/home/kali/disk.img bs=512
+```
+
+<img width="946" height="254" alt="image" src="https://github.com/user-attachments/assets/7a473851-8323-48ae-a8af-e98ad91cbece" />
+
+```
+mmls ~/disk.img
+```
+
+<img width="1096" height="310" alt="image" src="https://github.com/user-attachments/assets/c8c20128-949f-46ac-bdd5-19a69e84b04b" />
+
+```
+sudo ls -lh disk.img
+```
+
+<img width="879" height="216" alt="image" src="https://github.com/user-attachments/assets/c5e59f73-84d6-4d6b-8d4f-a5e40db7d3c9" />
+
+
+```
+strings disk.img | less
+```
+<img width="1390" height="797" alt="image" src="https://github.com/user-attachments/assets/95226f66-52a7-4fd3-9bd9-43ff08b3c72d" />
+
 
 ## RESULT:
 The unallocated space was successfully analyzed, data was extracted, and the digital investigation process was followed effectively.

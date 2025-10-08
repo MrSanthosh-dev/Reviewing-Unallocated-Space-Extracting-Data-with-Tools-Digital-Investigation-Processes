@@ -7,10 +7,10 @@ To review unallocated space in a disk image, extract data using forensic tools, 
 - Hex Editor (e.g., HxD)
 - Operating System: Windows 10/11 or Linux (Kali preferred)
 ## ARCHITECTURE DIAGRAM
-```mermaid
-<img width="340" height="748" alt="image" src="https://github.com/user-attachments/assets/e6e203d0-aa7d-4808-a7c8-1b7ac94f6730" />
 
-```
+<img width="340" height="748" alt="image" src="https://github.com/user-attachments/assets/e5b4d112-26e3-4ee6-8ba7-c766847c3fea" />
+
+
 ## DESIGN STEPS:
 ### Step 1 (Acquire Evidence Image):
 - Obtain the disk image in ```.dd``` or ```.E01``` format from a trusted forensic acquisition process.

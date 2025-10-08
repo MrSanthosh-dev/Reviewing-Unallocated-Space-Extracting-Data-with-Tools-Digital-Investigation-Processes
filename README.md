@@ -8,13 +8,8 @@ To review unallocated space in a disk image, extract data using forensic tools, 
 - Operating System: Windows 10/11 or Linux (Kali preferred)
 ## ARCHITECTURE DIAGRAM
 ```mermaid
-flowchart TD
-    A[Disk Image / Physical Drive] --> B[Load into Autopsy or Sleuth Kit]
-    B --> C[Identify Unallocated Space]
-    C --> D[Scan for Data Signatures]
-    D --> E[Carve and Recover Files]
-    E --> F[Analyze Recovered Data]
-    F --> G[Document Findings in Report]
+<img width="340" height="748" alt="image" src="https://github.com/user-attachments/assets/e6e203d0-aa7d-4808-a7c8-1b7ac94f6730" />
+
 ```
 ## DESIGN STEPS:
 ### Step 1 (Acquire Evidence Image):
